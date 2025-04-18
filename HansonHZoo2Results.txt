@@ -1,0 +1,344 @@
+-- Question 1
+# MEMB_FIRST_NAME, MEMB_LAST_NAME, MEMB_DATE_OF_BIRTH
+'Victoria', 'Peer', '1978-07-27'
+'Cammey', 'Olson', '1977-09-14'
+'Casey', 'Meshka', '1967-02-01'
+'George', 'Reech', '1969-05-09'
+'Madison', 'Leaf', '1971-11-27'
+'Mary', 'Emans', '1964-01-11'
+'David', 'Anderson', '1972-12-25'
+'Jacob', 'Heth', '1974-07-09'
+'Benjamin', 'Erickson', '1969-02-04'
+
+
+-- Question 2
+# EMP_ID, MAINT_TITLE
+'4024', 'HVAC'
+'4073', 'Janitor'
+'4087', 'Electrician'
+'4101', 'Electrician'
+'4157', 'Janitor'
+'4165', 'Janitor'
+'4220', 'Janitor'
+'4311', 'HVAC'
+'4318', 'Electrician'
+'4332', 'Janitor'
+'4374', 'Janitor'
+'4381', 'Janitor'
+'4416', 'HVAC'
+'4458', 'Electrician'
+'4465', 'Janitor'
+'4514', 'HVAC'
+'4563', 'Janitor'
+'4591', 'HVAC'
+'4605', 'Janitor'
+'4619', 'Janitor'
+'4626', 'Electrician'
+'4668', 'Janitor'
+'4675', 'Janitor'
+
+
+-- Question 3
+# EMP_ID
+'4269'
+'4276'
+'4283'
+'4633'
+'4640'
+'4647'
+'4654'
+'4661'
+'4668'
+
+
+
+-- Question 4
+# SPON_COMPANY_NAME
+'Wal-Mart'
+'Minnesota State University'
+'Best Buy'
+
+
+-- Question 5
+# RECEIPT_ID
+'10003'
+'10121'
+'10147'
+'10215'
+'10331'
+'10435'
+'10443'
+'10597'
+'10651'
+'10673'
+'10687'
+'10715'
+'10843'
+'10891'
+'10959'
+'11053'
+'11137'
+'12315'
+'12734'
+'12925'
+'13391'
+'13766'
+
+
+-- Question 6
+# MAX(RECEIPT_TOTAL_AMT) - AVG(RECEIPT_TOTAL_AMT)
+'44.568636'
+
+-- Question 7
+# MAX(EMP_SALARY), MIN(EMP_SALARY)
+'115000', '15000'
+
+-- Question 8
+# WAREHOUSE_ID, WAREHOUSE_ADDRESS, WAREHOUSE_PHONE_NUMBER
+
+-- Question 9
+# ANIM_NAME
+'Audrey'
+'Colin'
+'Ryan'
+'Trinity'
+
+-- Question 10
+# EMP_FIRST_NAME, EMP_LAST_NAME, EMP_PHONE_NUMBER
+'Jesse', 'Bass', '7705559776'
+'Aaron', 'Dippel', '5075556546'
+'Chad', 'Hindal', '5075558505'
+'Donald', 'Lutz', '4865558643'
+'Tom', 'Richardson', '5075555467'
+'Nicole', 'Secor', '5075557905'
+'Yolanda', 'Tequinda', '6515551624'
+
+-- Question 11
+# COUNT(*)
+'31'
+
+-- Question 12
+# MEMB_CITY, COUNT(*)
+'Winona', '8'
+'Mankato', '9'
+'St. Paul', '9'
+'Maple Grove', '6'
+'Minnetonka', '7'
+
+-- Question 13
+# ZOO_NAME
+'Minnesota Zoo'
+
+-- Question 14
+# PRODUCT_NAME, Profit
+'Koala Puppet', '22.19'
+
+-- Question 15
+# MIN(PRIV_EVEN_PRICE)
+'175'
+
+-- Question 16
+# ANIM_NAME
+'Ashley'
+
+-- Question 17
+# EMP_FIRST_NAME, EMP_LAST_NAME, EMP_SALARY
+'John', 'Crosby', '115000'
+
+-- Question 18
+# EMP_ID, EMP_FIRST_NAME, EMP_LAST_NAME
+'4199', 'Alise', 'Halterman'
+'4395', 'Tiffany', 'Jackson'
+'4479', 'Carry', 'Peck'
+
+-- Question 19
+# DAY(PRODUCT_FINISH_DATE) - DAY(PRODUCT_START_DATE)
+'16'
+
+
+-- Question 20
+# DEPT_NAME
+'Maintenance/Grounds'
+
+-- Question 21
+# EMP_ID, EMP_FIRST_NAME, EMP_LAST_NAME, EMP_HIRE_DATE
+'4010', 'John', 'Crosby', '2007-01-23'
+'4108', 'Jason', 'Mann', '2007-09-09'
+
+-- Question 22
+# ILL_DESCRIPTION, ILL_TREATMENT
+'Bacterial vaginosis (BV)', 'Diet Change'
+'Staphylococcal infection', 'Diet Change'
+
+-- Question 23
+# WAREHOUSE_ID, TotalInventory
+'1', '2854'
+'2', '2835'
+
+-- Question 24
+# FOOD_ITEM_DESCRIPTION
+'Tasty Meat'
+'Nutritious Walnuts with Vitamins'
+
+-- Question 25
+# STORE_ID, STORE_ADDRESS
+'1401', '13015 Zoo Boulevard'
+'1402', '1240 Estabrook Drive'
+'1404', '1235 Estabrook Drive'
+'1408', '127 East Broadway'
+'1410', '1233 Estabrook Drive'
+
+-- Question 26
+# ANIM_NAME
+'Emily'
+'Angel'
+
+-- Question 27
+# ILL_DESCRIPTION, ILL_START_DATE
+'Leptospirosis', '1998-08-29'
+'Adenovirus infection', '2000-04-11'
+'Bacterial pneumonia', '2000-06-12'
+'Tinea manuum (Ringworm of the Hand)', '2002-08-11'
+'Lyme disease (Lyme borreliosis)', '2003-04-22'
+'Marburg hemorrhagic fever (MHF)', '2003-08-24'
+'Tinea nigra', '2004-04-15'
+'Hepatitis B', '2005-03-16'
+'Cysticercosis', '2005-04-22'
+'Neonatal conjunctivitis (Ophthalmia neonatorum)', '2005-09-21'
+'Trichomoniasis', '2006-06-08'
+'Sporotrichosis', '2006-10-10'
+'Human parainfluenza virus infection', '2007-06-19'
+'Hand, foot and mouth disease (HFMD)', '2008-05-29'
+'Calicivirus infection (Norovirus and Sapovirus)', '2008-06-21'
+'Trichomoniasis', '2008-08-13'
+'Dracunculiasis', '2008-08-14'
+'African sleeping sickness (African trypanosomiasis)', '2008-08-19'
+'Cysticercosis', '2009-06-22'
+'Primary amoebic meningoencephalitis (PAM)', '2009-07-12'
+'Rocky mountain spotted fever (RMSF)', '2009-08-20'
+'Erythema infectiosum (Fifth disease)', '2009-08-20'
+'Adenovirus infection', '2009-09-05'
+'Progressive multifocal leukoencephalopathy', '2009-10-02'
+'BK virus infection', '2009-12-12'
+'Lyme disease (Lyme borreliosis)', '2009-12-29'
+'Glanders', '2010-02-25'
+
+
+-- Question 28
+# OFFICE_ID, EMP_FIRST_NAME, EMP_LAST_NAME
+'302', 'Janet', 'Heatley'
+'307', 'Kyle', 'Frank'
+
+-- Question 29
+# EMP_FIRST_NAME, EMP_LAST_NAME
+'John', 'Crosby'
+'Steve', 'Meemken'
+'Timothy', 'Oshie'
+'Joe', 'Kelleher'
+'Mike', 'Score'
+'Brittany', 'Regan'
+'Kyle', 'Taube'
+'Sarah', 'Tollefson'
+'Bill', 'Frank'
+'Tom', 'Richardson'
+'Tina', 'Caudill'
+'Julie', 'McVeigh'
+'Samantha', 'Regan'
+'William', 'Winters'
+'Jason', 'Mann'
+'Janet', 'Heatley'
+'Larry', 'Lidstrom'
+'Rachel', 'DeBace'
+'Rick', 'Smith'
+'Daniel', 'Johnson'
+'Rochelle', 'Ott'
+'Yolanda', 'Tequinda'
+'Aaron', 'Dippel'
+'Greggory', 'Paul'
+'Andy', 'Quinn'
+'Todd', 'Erickson'
+'Kyle', 'Frank'
+'Alise', 'Halterman'
+'Bret', 'Blakemore'
+'Patrick', 'Havlat'
+'Nicole', 'Secor'
+'Casey', 'Leeter'
+'Abigail', 'Arnold'
+'William', 'Koivu'
+'Katie', 'Strong'
+'Chad', 'Hindal'
+'Jacob', 'Anderson'
+'Mike', 'Lidberg'
+'Amanda', 'Grohl'
+'Alysa', 'Hornvquist'
+'Michael', 'Brown'
+'Mikko', 'Harding'
+'Josh', 'Moore'
+'Ashley', 'Solis'
+'Chad', 'Sheppard'
+'Kate', 'Austin'
+'Amanda', 'Mueller'
+'Char', 'Schroeder'
+'Ellie', 'Frost'
+'Daniel', 'Faraday'
+'Andrew', 'Brunette'
+'Gabrielle', 'Poole'
+'Jesse', 'Bass'
+'Kim', 'Marsh'
+'Kasey', 'Anderson'
+'Tiffany', 'Jackson'
+'Shelby', 'White'
+'Michelle', 'Lewis'
+'James', 'Ford'
+'Austin', 'Wright'
+'Ryan', 'Gill'
+'Matthew', 'Adams'
+'Sarah', 'Reese'
+'Saundra', 'Martinez'
+'John', 'Locke'
+'Brianna', 'Garcia'
+'Cameron', 'Thompson'
+'Carry', 'Peck'
+'Katherine', 'Key'
+'Cole', 'Young'
+'Kirk', 'Scott'
+'Kyle', 'Greene'
+'Rachel', 'McCarty'
+'Rebecca', 'Ewing'
+'Ben', 'Carter'
+'Becca', 'Turner'
+'Kate', 'Phillips'
+'Blake', 'Campbell'
+'Seth', 'Alexander'
+'Trevor', 'Russell'
+'Taylor', 'Flores'
+'Ericka', 'Hughes'
+'Alex', 'Brooks'
+'Allison', 'Morgan'
+'Kristine', 'Gray'
+'Nancy', 'Bryant'
+'James', 'Gore'
+'Hugo', 'Hurley'
+'Donald', 'Lutz'
+'Paul', 'Moser'
+'Ralph', 'Meeks'
+'Brandon', 'Harden'
+'Fred', 'Gary'
+'Eddie', 'Felix'
+'Julia', 'Shea'
+'Jack', 'Sheppard'
+'David', 'Grohl'
+'Misti', 'Walker'
+'Brad', 'Russo'
+'Mark', 'Blue'
+'Sharon', 'Milton'
+'Maria', 'Lamb'
+
+-- Question 30
+# FOOD_ITEM_DESCRIPTION, FOOD_PRICE
+'Organic Sardines with Antioxidants', '41.24'
+'Organic Sardines with Antioxidants', '205.40'
+'Organic Sardines with Antioxidants', '19.63'
+
+
+
