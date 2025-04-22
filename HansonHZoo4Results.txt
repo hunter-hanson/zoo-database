@@ -1,0 +1,388 @@
+-- Question 1
+# MIN(INVEN_AMOUNT), MAX(INVEN_MAX_STOCK), ROUND(AVG(INVEN_REORDER_POINT))
+'9', '250', '23'
+
+-- Question 2
+# AVG(RES_BONUS)
+'8100.0000'
+
+-- Question 3
+# AVG_CREDIT_PAY_AMOUNT
+'3387'
+
+-- Question 4
+# ANIM_GENDER, COUNT(ANIM_ID)
+'M', '100'
+'F', '96'
+
+-- Question 5
+# EMP_CITY, SUM(EMP_SALARY)
+'St. Paul', '1002640'
+'Mankato', '548440'
+'Maplewood', '216150'
+'Cottage Grove', '367650'
+'Woodbury', '20650'
+'Minneapolis', '337300'
+'Edina', '178600'
+'Mendota', '88850'
+'Bloomington', '561910'
+'Apple Valley', '529050'
+
+-- Question 6
+# PRODUCT_ID, MIN(INVEN_AMOUNT)
+'124', '27'
+'145', '29'
+'225', '35'
+'231', '12'
+'272', '36'
+'273', '48'
+'274', '56'
+'311', '35'
+'341', '60'
+'354', '12'
+'385', '26'
+'442', '10'
+'452', '32'
+'463', '85'
+'513', '14'
+'516', '84'
+'563', '22'
+'576', '42'
+'583', '32'
+'603', '82'
+'613', '14'
+'735', '64'
+'736', '37'
+'751', '9'
+'763', '25'
+'843', '35'
+'845', '22'
+'846', '74'
+'851', '45'
+'885', '25'
+'907', '64'
+'942', '39'
+'968', '46'
+'975', '59'
+'984', '15'
+
+-- Question 7
+# FOOD_SUP_COMPANY_NAME, COUNT(FOOD_ITEM_SUPPLIER.FOOD_ITEM_ID)
+'Zoo Food Inc', '33'
+'Zood', '31'
+'Animal Food Solutions', '38'
+'Gourmet Animal Catering', '34'
+'Tiger Nutrition', '41'
+
+-- Question 8
+# DEPT_ID, COUNT(EMPLOYEE.EMP_ID)
+'113', '2'
+NULL, '35'
+'107', '2'
+'121', '4'
+'100', '1'
+'111', '4'
+'106', '12'
+'108', '4'
+'115', '6'
+'116', '3'
+'114', '3'
+'122', '5'
+'112', '2'
+'101', '3'
+'118', '4'
+'105', '1'
+'109', '3'
+'104', '1'
+'119', '3'
+'117', '2'
+'110', '2'
+
+-- Question 9
+# FOOD_SUP_COMPANY_NAME, COUNT(FOOD_ITEM_SUPPLIER.FOOD_ITEM_ID)
+'Zoo Food Inc', '33'
+'Zood', '31'
+'Animal Food Solutions', '38'
+'Gourmet Animal Catering', '34'
+'Tiger Nutrition', '41'
+
+-- Question 10
+# FOOD_SUP_ID, COUNT(FOOD_ITEM_ID)
+'2', '41'
+
+-- Question 11
+# AVG(PAY_AMOUNT), PAY_TYPE
+'3386.6129', 'Credit Card'
+
+-- Question 12
+# PRODUCT_ID, SUM(INVEN_AMOUNT)
+'851', '522'
+'735', '534'
+'968', '545'
+'273', '561'
+'274', '566'
+'843', '592'
+'272', '684'
+'145', '690'
+'975', '701'
+'516', '706'
+'463', '764'
+'846', '959'
+'603', '984'
+'907', '994'
+'341', '1003'
+
+-- Question 13
+# ZOO_NAME
+'Minnesota Zoo'
+
+-- Question 14
+# ANIM_BREED_NAME
+'Two-toed Sloth'
+'Lion'
+'Jaguar'
+'Moose'
+'American Badger'
+'Koala'
+'Black Vulture'
+'Rabbit'
+'African Bush Elephant'
+'California Sea Lion'
+'Thomson\'\'s Gazelle'
+'Red Fox'
+'Piranha'
+'Gentoo Penguin'
+'Great Horned Owl'
+'Dolphin'
+
+-- Question 15
+# ANIM_NAME, ANIM_GENDER, ANIM_BREED_NAME
+'Brianna', 'F', 'Two-toed Sloth'
+'Ariana', 'F', 'American Black Bear'
+'Mariah', 'F', 'Osprey'
+'Eric', 'M', 'Osprey'
+'Anna', 'F', 'Osprey'
+'Marissa', 'F', 'Mallard'
+'Christian', 'M', 'Manatee'
+'Vanessa', 'F', 'Marine Toad'
+'Andrew', 'M', 'Warthog'
+'Christopher', 'M', 'Coyote'
+'Alexis', 'F', 'Coyote'
+'Savannah', 'F', 'Rabbit'
+'Kaylee', 'F', 'Ring-tailed Lemur'
+'Emma', 'F', 'African Bush Elephant'
+'Gabriella', 'F', 'Thomson\'\'s Gazelle'
+'Riley', 'F', 'North American Beaver'
+'Hunter', 'M', 'Red Fox'
+'Xavier', 'M', 'Piranha'
+'Isabelle', 'F', 'White-tailed Deer'
+'Brian', 'M', 'Caribou'
+'Hannah', 'F', 'Giant Moray Eel'
+'Brandon', 'M', 'Platypus'
+'Jasmine', 'F', 'Hamadryas Baboon'
+'Carter', 'M', 'Great Horned Owl'
+'Joshua', 'M', 'American Flamingo'
+'Nevaeh', 'F', 'Hippopotamus'
+'Jaden', 'M', 'Bee Hummingbird'
+'Maya', 'F', 'Crested Porcupine'
+'Kylie', 'F', 'Crested Porcupine'
+'Kayla', 'F', 'Straw-colored Fruit Bat'
+'Nicholas', 'M', 'Straw-colored Fruit Bat'
+'Diana', 'F', 'Straw-colored Fruit Bat'
+'Samuel', 'M', 'Straw-colored Fruit Bat'
+'Jessica', 'F', 'Bald Eagle'
+'Charles', 'M', 'Bald Eagle'
+'Connor', 'M', 'Bald Eagle'
+'Haley', 'F', 'Zebra'
+
+-- Question 16
+# ANIM_NAME
+'Alexis'
+
+-- Question 17
+# DON_FIRST_NAME, DON_LAST_NAME, PAY_AMOUNT
+'Shelly', 'Anderson', '371'
+'John', 'Williams', '316'
+'Andy', 'Stevens', '781'
+'Dylan', 'Hogg', '99'
+'Tim', 'Silverman', '97'
+'Kelsey', 'Wilson', '493'
+'Corey', 'Emans', '25'
+'Brandon', 'Frankson', '900'
+'Gary', 'Dickinson', '800'
+'Simon', 'Hoff', '321'
+'Leah', 'Hanson', '616'
+'Hank', 'Strange', '318'
+'Jean', 'Gloede', '237'
+'Becky', 'Brophy', '392'
+'Gretchen', 'Sims', '690'
+'Alexis', 'Rossi', '827'
+'Sean', 'Klonecki', '449'
+'Dane', 'Price', '353'
+'Ken', 'Hans', '885'
+
+-- Question 18
+
+-- Question 19
+# ANIM_NAME, ANIM_BREED_NAME, ILL_DESCRIPTION
+'Madison', 'Osprey', 'Common cold (Acute viral rhinopharyngitis; Acute coryza)'
+'Madison', 'Osprey', 'Hymenolepiasis'
+'Madison', 'Osprey', 'Trichuriasis (Whipworm infection)'
+'Madison', 'Osprey', 'West Nile Fever'
+'Caden', 'Piranha', 'Crimean-Congo hemorrhagic fever (CCHF)'
+'Caden', 'Piranha', 'Group A streptococcal infection'
+'Caden', 'Piranha', 'Helicobacter pylori infection'
+'Caden', 'Piranha', '(New) Variant Creutzfeldt-Jakob disease (vCJD, nvCJD)'
+'Bryan', 'Bornean Orangutan', 'Acinetobacter infections'
+'Bryan', 'Bornean Orangutan', 'Fasciolopsiasis'
+'Bryan', 'Bornean Orangutan', 'Geotrichosis'
+'Bryan', 'Bornean Orangutan', 'Pediculosis capitis (Head lice)'
+'Bryan', 'Bornean Orangutan', 'Strongyloidiasis'
+'Devin', 'Caribou', 'Cat-scratch disease'
+'Devin', 'Caribou', 'Histoplasmosis'
+'Devin', 'Caribou', 'Leprosy'
+'Devin', 'Caribou', 'Marburg hemorrhagic fever (MHF)'
+'Devin', 'Caribou', 'Venezuelan hemorrhagic fever'
+'Brandon', 'Platypus', 'Astrovirus infection'
+'Brandon', 'Platypus', 'BK virus infection'
+'Owen', 'American Flamingo', 'Human metapneumovirus infection'
+'Owen', 'American Flamingo', 'Tinea corporis (Ringworm of the Body)'
+
+-- Question 20
+# FOOD_ITEM_DESCRIPTION, FOOD_PRICE, FOOD_CATEGORY_DESCRIPTION, FOOD_SUP_COMPANY_NAME
+'Organic Sardines with Antioxidants', '19.63', 'Bee Hummingbird Meal 2', 'Zood'
+'Wholesome Meat with Antioxidants', '5.27', 'California Sea Lion Meal 2', 'Gourmet Animal Catering'
+'Super Sardines', '4.60', 'Hippopotamus Meal 1', 'Tiger Nutrition'
+'Tasty Meat', '18.73', 'Marine Toad Meal 1', 'Tiger Nutrition'
+'Tasty Vegetables with Vitamins', '11.33', 'Moose Meal 1', 'Zoo Food Inc'
+'Super Vegetables', '14.82', 'Moose Meal 2', 'Gourmet Animal Catering'
+'Organic Chicken', '11.47', 'Rabbit Meal 1', 'Zood'
+'Nutritious Sardines', '7.96', 'Walrus Meal 1', 'Zood'
+
+-- Question 21
+
+-- Question 22
+# SPON_COMPANY_NAME, SPON_PAY_PAYMENT_DATE, PAY_AMOUNT, ZOO_NAME, PRIV_EVEN_PAY_PAYMENT_DATE
+'Wal-Mart', '2008-05-27', '14000', 'The Como Park Zoo and Conservatory', NULL
+'Xcel Energy', '2007-06-16', '17500', 'Minnesota Zoo', NULL
+'Caribou Coffee', '2008-09-13', '7100', 'Underwater Adventure', NULL
+'3M', '2007-08-24', '7950', 'Minnesota Zoo', NULL
+'Minnesota State University', '2007-05-12', '6500', 'Minnesota Zoo', NULL
+'Iams', '2009-06-19', '8600', 'The Como Park Zoo and Conservatory', NULL
+'Petsmart', '2009-02-09', '18000', 'Minnesota Zoo', NULL
+'Best Buy', '2009-05-11', '6400', 'The Como Park Zoo and Conservatory', NULL
+'Coca-Cola', '2007-04-28', '7500', 'The Como Park Zoo and Conservatory', NULL
+'Petco', '2008-07-08', '14000', 'Minnesota Zoo', NULL
+'Century College', '2009-03-16', '12500', 'The Como Park Zoo and Conservatory', NULL
+'Purina', '2008-12-09', '16400', 'Underwater Adventure', NULL
+'Ocean Life', '2007-07-16', '22500', 'Underwater Adventure', NULL
+
+-- Question 23
+# EMP_FIRST_NAME, EMP_LAST_NAME, RES_BONUS
+'John', 'Crosby', '10000'
+'Kyle', 'Taube', NULL
+'Jason', 'Mann', NULL
+'Janet', 'Heatley', '15000'
+'Kyle', 'Frank', NULL
+'Patrick', 'Havlat', NULL
+'Andrew', 'Brunette', NULL
+'Shelby', 'White', '5000'
+'Cole', 'Young', '8000'
+'Mark', 'Blue', '2500'
+
+-- Question 24
+# PRODUCT_NAME, PRODUCT_PURCHASE_DATE, PRODUCT_FINISH_DATE
+'Zoo Water bottle', NULL, '2007-04-25'
+'Leopard Scarf', NULL, '2007-09-13'
+'Panda Babies 2010 Calendar', NULL, '2007-11-20'
+'Sounds of the Ocean CD', NULL, '2008-09-15'
+'Animals in the Wild DVD', NULL, '2009-02-03'
+'Bird Watcher\'s Field Kit', NULL, '2009-03-01'
+'Sounds of the Jungle CD', NULL, '2009-03-04'
+'Zoo Coloring Book', '0208-05-19', NULL
+'Panda Earrings', '2007-03-16', NULL
+'Zoo Pen Pack', '2007-03-24', NULL
+'Zebra Handbag', '2007-03-25', NULL
+'Plush Giraffe', '2007-03-28', NULL
+'Zoo Monopoly', '2007-04-16', NULL
+'Magnetic Zoo Frame', '2007-04-17', NULL
+'Lion T-shirt', '2007-06-20', '2007-04-19'
+'Zoo T-shirt', '2007-06-20', '2007-04-20'
+'Panda T-shirt', '2007-06-20', '2007-04-21'
+'Lion Mouse Pad', '2007-07-05', NULL
+'Elephant Collectible Statue', '2007-07-05', NULL
+'Kid Picture Book', '2007-08-12', NULL
+'Zoo Green Bag', '2007-08-20', NULL
+'Zoo Magnet', '2007-10-05', NULL
+'Collage key chain', '2008-02-15', NULL
+'Elephant Hand Puppet', '2008-02-20', NULL
+'Collage Picture Coffee Table Book', '2008-05-17', NULL
+'Who\'s in the Jungle Book', '2008-06-03', NULL
+'2GB Elephant Flash Drive', '2008-06-26', NULL
+'Giraffe Frame', '2008-07-20', NULL
+'Plush Polar Bear', '2008-11-27', NULL
+'Koala Puppet', '2009-01-13', NULL
+'Plush Lion', '2009-03-14', NULL
+'Zoo Postcard', '2009-06-15', '2008-05-17'
+'Pandamonium Game', '2009-07-10', NULL
+'Animal Montage Puzzle', '2009-08-20', NULL
+'Zoo Coffee Mug', '2009-08-25', '2009-06-28'
+
+-- Question 25
+# DEPT_NAME, EMP_FIRST_NAME, EMP_LAST_NAME
+'Aquatics', NULL, NULL
+'Birds', NULL, NULL
+'Children\'s Zoo', NULL, NULL
+'Design', NULL, NULL
+'Development', NULL, NULL
+'Education', NULL, NULL
+'Finance', NULL, NULL
+'General Curator', NULL, NULL
+'Guest Services', NULL, NULL
+'Health/Nutrition', NULL, NULL
+'Information Systems', NULL, NULL
+'Invertebrates', NULL, NULL
+'Laboratory', NULL, NULL
+'Maintenance/Grounds', NULL, NULL
+'Mammals/Carnivores', NULL, NULL
+'Marketing', NULL, NULL
+'Public Relations', NULL, NULL
+'Registrar', NULL, NULL
+'Reptiles/Amphibians', NULL, NULL
+'Research', NULL, NULL
+'Security', NULL, NULL
+'Store Services', NULL, NULL
+'Veterinary', NULL, NULL
+
+-- Question 26
+# EMP_FIRST_NAME, EMP_LAST_NAME, OFFICE_ID, OFFICE_BUILDING
+'Kim', 'Marsh', '203', 'Main Office'
+'Jason', 'Mann', '209', 'Inner Zoo Research Facility'
+'Julie', 'McVeigh', '215', 'Administration'
+'Sharon', 'Milton', '109', 'Administration'
+'Steve', 'Meemken', NULL, NULL
+'Josh', 'Moore', NULL, NULL
+'Amanda', 'Mueller', NULL, NULL
+'Saundra', 'Martinez', NULL, NULL
+'Rachel', 'McCarty', NULL, NULL
+'Allison', 'Morgan', NULL, NULL
+'Paul', 'Moser', NULL, NULL
+'Ralph', 'Meeks', NULL, NULL
+
+-- Question 27
+# MAX(PRODUCT_SUGGESTED_PRICE), MIN(PRODUCT_SUGGESTED_PRICE), (MAX(PRODUCT_SUGGESTED_PRICE) - MIN(PRODUCT_SUGGESTED_PRICE))
+'29.99', '0.99', '29.00'
+
+-- Question 28
+# EMP_FIRST_NAME, EMP_LAST_NAME, EMP_HIRE_DATE, EMP_SALARY
+'Aaron', 'Dippel', '2008-01-18', '15000'
+
+-- Question 29
+# DON_FIRST_NAME, DON_LAST_NAME
+'Max', 'Stanek'
+'Ken', 'Hans'
+
+-- Question 30
+# (PRODUCT_FINISH_DATE - PRODUCT_START_DATE)
+'-84'
+
